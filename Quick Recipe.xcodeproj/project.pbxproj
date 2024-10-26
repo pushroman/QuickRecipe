@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A67C45342C7BA8DA00940E4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67C45332C7BA8DA00940E4F /* AppDelegate.swift */; };
+		A67C45362C7BA8DA00940E4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67C45352C7BA8DA00940E4F /* SceneDelegate.swift */; };
+		A67C45382C7BA8DA00940E4F /* QRMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67C45372C7BA8DA00940E4F /* QRMainViewController.swift */; };
+		A67C453D2C7BA8DB00940E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67C453C2C7BA8DB00940E4F /* Assets.xcassets */; };
+		A67C454B2C7BA8DB00940E4F /* Quick_RecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67C454A2C7BA8DB00940E4F /* Quick_RecipeTests.swift */; };
+		A67C45552C7BA8DB00940E4F /* Quick_RecipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67C45542C7BA8DB00940E4F /* Quick_RecipeUITests.swift */; };
+		A67C45572C7BA8DB00940E4F /* Quick_RecipeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67C45562C7BA8DB00940E4F /* Quick_RecipeUITestsLaunchTests.swift */; };
+		A67C45642C7BBC2600940E4F /* QRLoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67C45632C7BBC2600940E4F /* QRLoveViewController.swift */; };
+		A67C45662C7BBC3D00940E4F /* QRAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67C45652C7BBC3D00940E4F /* QRAccountViewController.swift */; };
+		A68D76EF2C84D94300E4ECFA /* QRCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68D76EE2C84D94300E4ECFA /* QRCreateViewController.swift */; };
+		A68D76F72C84E76A00E4ECFA /* irina.png in Resources */ = {isa = PBXBuildFile; fileRef = A68D76F62C84E76A00E4ECFA /* irina.png */; };
+		A68D76F82C84E76A00E4ECFA /* irina.png in Resources */ = {isa = PBXBuildFile; fileRef = A68D76F62C84E76A00E4ECFA /* irina.png */; };
+		A68D76F92C84E76A00E4ECFA /* irina.png in Resources */ = {isa = PBXBuildFile; fileRef = A68D76F62C84E76A00E4ECFA /* irina.png */; };
+		A6A374EA2C80E85E00161068 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E02C80E85E00161068 /* Gilroy-Regular.ttf */; };
+		A6A374EB2C80E85E00161068 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E02C80E85E00161068 /* Gilroy-Regular.ttf */; };
+		A6A374EC2C80E85E00161068 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E02C80E85E00161068 /* Gilroy-Regular.ttf */; };
+		A6A374ED2C80E85E00161068 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E12C80E85E00161068 /* Gilroy-Heavy.ttf */; };
+		A6A374EE2C80E85E00161068 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E12C80E85E00161068 /* Gilroy-Heavy.ttf */; };
+		A6A374EF2C80E85E00161068 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E12C80E85E00161068 /* Gilroy-Heavy.ttf */; };
+		A6A374F02C80E85E00161068 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E22C80E85E00161068 /* Gilroy-UltraLight.ttf */; };
+		A6A374F12C80E85E00161068 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E22C80E85E00161068 /* Gilroy-UltraLight.ttf */; };
+		A6A374F22C80E85E00161068 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E22C80E85E00161068 /* Gilroy-UltraLight.ttf */; };
+		A6A374F32C80E85E00161068 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E32C80E85E00161068 /* Gilroy-Light.ttf */; };
+		A6A374F42C80E85E00161068 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E32C80E85E00161068 /* Gilroy-Light.ttf */; };
+		A6A374F52C80E85E00161068 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E32C80E85E00161068 /* Gilroy-Light.ttf */; };
+		A6A374F62C80E85E00161068 /* Gilroy-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E42C80E85E00161068 /* Gilroy-Semibold.ttf */; };
+		A6A374F72C80E85E00161068 /* Gilroy-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E42C80E85E00161068 /* Gilroy-Semibold.ttf */; };
+		A6A374F82C80E85E00161068 /* Gilroy-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E42C80E85E00161068 /* Gilroy-Semibold.ttf */; };
+		A6A374F92C80E85E00161068 /* Gilroy-Extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E52C80E85E00161068 /* Gilroy-Extrabold.ttf */; };
+		A6A374FA2C80E85E00161068 /* Gilroy-Extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E52C80E85E00161068 /* Gilroy-Extrabold.ttf */; };
+		A6A374FB2C80E85E00161068 /* Gilroy-Extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E52C80E85E00161068 /* Gilroy-Extrabold.ttf */; };
+		A6A374FC2C80E85E00161068 /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E62C80E85E00161068 /* Gilroy-Thin.ttf */; };
+		A6A374FD2C80E85E00161068 /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E62C80E85E00161068 /* Gilroy-Thin.ttf */; };
+		A6A374FE2C80E85E00161068 /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E62C80E85E00161068 /* Gilroy-Thin.ttf */; };
+		A6A374FF2C80E85E00161068 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E72C80E85E00161068 /* Gilroy-Medium.ttf */; };
+		A6A375002C80E85E00161068 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E72C80E85E00161068 /* Gilroy-Medium.ttf */; };
+		A6A375012C80E85E00161068 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E72C80E85E00161068 /* Gilroy-Medium.ttf */; };
+		A6A375022C80E85E00161068 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E82C80E85E00161068 /* Gilroy-Black.ttf */; };
+		A6A375032C80E85E00161068 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E82C80E85E00161068 /* Gilroy-Black.ttf */; };
+		A6A375042C80E85E00161068 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E82C80E85E00161068 /* Gilroy-Black.ttf */; };
+		A6A375052C80E85E00161068 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E92C80E85E00161068 /* Gilroy-Bold.ttf */; };
+		A6A375062C80E85E00161068 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E92C80E85E00161068 /* Gilroy-Bold.ttf */; };
+		A6A375072C80E85E00161068 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E92C80E85E00161068 /* Gilroy-Bold.ttf */; };
+		A6C9058C2C8241E800317201 /* egg.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C9058B2C8241E800317201 /* egg.png */; };
+		A6C9058D2C8241E800317201 /* egg.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C9058B2C8241E800317201 /* egg.png */; };
+		A6C9058E2C8241E800317201 /* egg.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C9058B2C8241E800317201 /* egg.png */; };
+		A6C905902C825B5800317201 /* fruit.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C9058F2C825B5800317201 /* fruit.png */; };
+		A6C905912C825B5800317201 /* fruit.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C9058F2C825B5800317201 /* fruit.png */; };
+		A6C905922C825B5800317201 /* fruit.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C9058F2C825B5800317201 /* fruit.png */; };
+		A6C905942C825BC100317201 /* ov.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C905932C825BC100317201 /* ov.png */; };
+		A6C905952C825BC100317201 /* ov.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C905932C825BC100317201 /* ov.png */; };
+		A6C905962C825BC100317201 /* ov.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C905932C825BC100317201 /* ov.png */; };
+		A6CDC6BC2C831281000F7131 /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC6BB2C831281000F7131 /* top.png */; };
+		A6CDC6BD2C831281000F7131 /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC6BB2C831281000F7131 /* top.png */; };
+		A6CDC6BE2C831281000F7131 /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC6BB2C831281000F7131 /* top.png */; };
+		A6CDC6C22C832443000F7131 /* ovoc.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC6BF2C832442000F7131 /* ovoc.png */; };
+		A6CDC6C32C832443000F7131 /* ovoc.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC6BF2C832442000F7131 /* ovoc.png */; };
+		A6CDC6C42C832443000F7131 /* ovoc.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC6BF2C832442000F7131 /* ovoc.png */; };
+		A6CDC6C52C832443000F7131 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC6C02C832443000F7131 /* black.png */; };
+		A6CDC6C62C832443000F7131 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC6C02C832443000F7131 /* black.png */; };
+		A6CDC6C72C832443000F7131 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC6C02C832443000F7131 /* black.png */; };
+		A6CDC6C82C832443000F7131 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC6C12C832443000F7131 /* girl.png */; };
+		A6CDC6C92C832443000F7131 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC6C12C832443000F7131 /* girl.png */; };
+		A6CDC6CA2C832443000F7131 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC6C12C832443000F7131 /* girl.png */; };
+		A6FDDC192C987C80004D3C61 /* QRTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FDDC182C987C80004D3C61 /* QRTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A67C45472C7BA8DB00940E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A67C45282C7BA8DA00940E4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A67C452F2C7BA8DA00940E4F;
+			remoteInfo = "Quick Recipe";
+		};
+		A67C45512C7BA8DB00940E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A67C45282C7BA8DA00940E4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A67C452F2C7BA8DA00940E4F;
+			remoteInfo = "Quick Recipe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A67C45302C7BA8DA00940E4F /* Quick Recipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Recipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67C45332C7BA8DA00940E4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A67C45352C7BA8DA00940E4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A67C45372C7BA8DA00940E4F /* QRMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRMainViewController.swift; sourceTree = "<group>"; };
+		A67C453C2C7BA8DB00940E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A67C45412C7BA8DB00940E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67C45462C7BA8DB00940E4F /* Quick RecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick RecipeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67C454A2C7BA8DB00940E4F /* Quick_RecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_RecipeTests.swift; sourceTree = "<group>"; };
+		A67C45502C7BA8DB00940E4F /* Quick RecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick RecipeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67C45542C7BA8DB00940E4F /* Quick_RecipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_RecipeUITests.swift; sourceTree = "<group>"; };
+		A67C45562C7BA8DB00940E4F /* Quick_RecipeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_RecipeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A67C45632C7BBC2600940E4F /* QRLoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRLoveViewController.swift; sourceTree = "<group>"; };
+		A67C45652C7BBC3D00940E4F /* QRAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRAccountViewController.swift; sourceTree = "<group>"; };
+		A68D76EE2C84D94300E4ECFA /* QRCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCreateViewController.swift; sourceTree = "<group>"; };
+		A68D76F62C84E76A00E4ECFA /* irina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = irina.png; sourceTree = "<group>"; };
+		A6A374E02C80E85E00161068 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Regular.ttf"; path = "../../../../../../../Downloands/Gilroy (1)/Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		A6A374E12C80E85E00161068 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Heavy.ttf"; path = "../../../../../../../Downloands/Gilroy (1)/Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		A6A374E22C80E85E00161068 /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-UltraLight.ttf"; path = "../../../../../../../Downloands/Gilroy (1)/Gilroy-UltraLight.ttf"; sourceTree = "<group>"; };
+		A6A374E32C80E85E00161068 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Light.ttf"; path = "../../../../../../../Downloands/Gilroy (1)/Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		A6A374E42C80E85E00161068 /* Gilroy-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Semibold.ttf"; path = "../../../../../../../Downloands/Gilroy (1)/Gilroy-Semibold.ttf"; sourceTree = "<group>"; };
+		A6A374E52C80E85E00161068 /* Gilroy-Extrabold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Extrabold.ttf"; path = "../../../../../../../Downloands/Gilroy (1)/Gilroy-Extrabold.ttf"; sourceTree = "<group>"; };
+		A6A374E62C80E85E00161068 /* Gilroy-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Thin.ttf"; path = "../../../../../../../Downloands/Gilroy (1)/Gilroy-Thin.ttf"; sourceTree = "<group>"; };
+		A6A374E72C80E85E00161068 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Medium.ttf"; path = "../../../../../../../Downloands/Gilroy (1)/Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		A6A374E82C80E85E00161068 /* Gilroy-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Black.ttf"; path = "../../../../../../../Downloands/Gilroy (1)/Gilroy-Black.ttf"; sourceTree = "<group>"; };
+		A6A374E92C80E85E00161068 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Bold.ttf"; path = "../../../../../../../Downloands/Gilroy (1)/Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		A6C9058B2C8241E800317201 /* egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg.png; sourceTree = "<group>"; };
+		A6C9058F2C825B5800317201 /* fruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fruit.png; sourceTree = "<group>"; };
+		A6C905932C825BC100317201 /* ov.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ov.png; sourceTree = "<group>"; };
+		A6CDC6BB2C831281000F7131 /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top.png; sourceTree = "<group>"; };
+		A6CDC6BF2C832442000F7131 /* ovoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ovoc.png; sourceTree = "<group>"; };
+		A6CDC6C02C832443000F7131 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		A6CDC6C12C832443000F7131 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+		A6FDDC182C987C80004D3C61 /* QRTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A67C452D2C7BA8DA00940E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67C45432C7BA8DB00940E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67C454D2C7BA8DB00940E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A67C45272C7BA8DA00940E4F = {
+			isa = PBXGroup;
+			children = (
+				A67C45322C7BA8DA00940E4F /* Quick Recipe */,
+				A67C45492C7BA8DB00940E4F /* Quick RecipeTests */,
+				A67C45532C7BA8DB00940E4F /* Quick RecipeUITests */,
+				A67C45312C7BA8DA00940E4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A67C45312C7BA8DA00940E4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A67C45302C7BA8DA00940E4F /* Quick Recipe.app */,
+				A67C45462C7BA8DB00940E4F /* Quick RecipeTests.xctest */,
+				A67C45502C7BA8DB00940E4F /* Quick RecipeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A67C45322C7BA8DA00940E4F /* Quick Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				A6A374D52C80D6CB00161068 /* Front */,
+				A6FDDC162C9872D6004D3C61 /* Resources */,
+				A6FDDC152C9872B7004D3C61 /* API */,
+				A6FDDC142C987286004D3C61 /* Managers */,
+				A6FDDC112C987235004D3C61 /* Models */,
+				A6FDDC132C98725D004D3C61 /* ViewModels */,
+				A6FDDC122C987249004D3C61 /* View */,
+				A6FDDC102C9871FA004D3C61 /* Controllers */,
+				A67C45412C7BA8DB00940E4F /* Info.plist */,
+			);
+			path = "Quick Recipe";
+			sourceTree = "<group>";
+		};
+		A67C45492C7BA8DB00940E4F /* Quick RecipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A67C454A2C7BA8DB00940E4F /* Quick_RecipeTests.swift */,
+			);
+			path = "Quick RecipeTests";
+			sourceTree = "<group>";
+		};
+		A67C45532C7BA8DB00940E4F /* Quick RecipeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A67C45542C7BA8DB00940E4F /* Quick_RecipeUITests.swift */,
+				A67C45562C7BA8DB00940E4F /* Quick_RecipeUITestsLaunchTests.swift */,
+			);
+			path = "Quick RecipeUITests";
+			sourceTree = "<group>";
+		};
+		A6A374D52C80D6CB00161068 /* Front */ = {
+			isa = PBXGroup;
+			children = (
+				A6A374E82C80E85E00161068 /* Gilroy-Black.ttf */,
+				A6A374E92C80E85E00161068 /* Gilroy-Bold.ttf */,
+				A6A374E52C80E85E00161068 /* Gilroy-Extrabold.ttf */,
+				A6A374E12C80E85E00161068 /* Gilroy-Heavy.ttf */,
+				A6A374E32C80E85E00161068 /* Gilroy-Light.ttf */,
+				A6A374E72C80E85E00161068 /* Gilroy-Medium.ttf */,
+				A6A374E02C80E85E00161068 /* Gilroy-Regular.ttf */,
+				A6A374E42C80E85E00161068 /* Gilroy-Semibold.ttf */,
+				A6A374E62C80E85E00161068 /* Gilroy-Thin.ttf */,
+				A6A374E22C80E85E00161068 /* Gilroy-UltraLight.ttf */,
+			);
+			path = Front;
+			sourceTree = "<group>";
+		};
+		A6C9058A2C8241D200317201 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				A68D76F62C84E76A00E4ECFA /* irina.png */,
+				A6CDC6C02C832443000F7131 /* black.png */,
+				A6CDC6C12C832443000F7131 /* girl.png */,
+				A6CDC6BF2C832442000F7131 /* ovoc.png */,
+				A6CDC6BB2C831281000F7131 /* top.png */,
+				A6C9058F2C825B5800317201 /* fruit.png */,
+				A6C905932C825BC100317201 /* ov.png */,
+				A6C9058B2C8241E800317201 /* egg.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		A6FDDC102C9871FA004D3C61 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6FDDC172C987663004D3C61 /* Core */,
+				A68D76EE2C84D94300E4ECFA /* QRCreateViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A6FDDC112C987235004D3C61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6FDDC122C987249004D3C61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6FDDC132C98725D004D3C61 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A6FDDC142C987286004D3C61 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A6FDDC152C9872B7004D3C61 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A6FDDC162C9872D6004D3C61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6C9058A2C8241D200317201 /* Image */,
+				A67C453C2C7BA8DB00940E4F /* Assets.xcassets */,
+				A67C45332C7BA8DA00940E4F /* AppDelegate.swift */,
+				A67C45352C7BA8DA00940E4F /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A6FDDC172C987663004D3C61 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A67C45372C7BA8DA00940E4F /* QRMainViewController.swift */,
+				A67C45632C7BBC2600940E4F /* QRLoveViewController.swift */,
+				A67C45652C7BBC3D00940E4F /* QRAccountViewController.swift */,
+				A6FDDC182C987C80004D3C61 /* QRTableViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A67C452F2C7BA8DA00940E4F /* Quick Recipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67C455A2C7BA8DB00940E4F /* Build configuration list for PBXNativeTarget "Quick Recipe" */;
+			buildPhases = (
+				A67C452C2C7BA8DA00940E4F /* Sources */,
+				A67C452D2C7BA8DA00940E4F /* Frameworks */,
+				A67C452E2C7BA8DA00940E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quick Recipe";
+			productName = "Quick Recipe";
+			productReference = A67C45302C7BA8DA00940E4F /* Quick Recipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A67C45452C7BA8DB00940E4F /* Quick RecipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67C455D2C7BA8DB00940E4F /* Build configuration list for PBXNativeTarget "Quick RecipeTests" */;
+			buildPhases = (
+				A67C45422C7BA8DB00940E4F /* Sources */,
+				A67C45432C7BA8DB00940E4F /* Frameworks */,
+				A67C45442C7BA8DB00940E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A67C45482C7BA8DB00940E4F /* PBXTargetDependency */,
+			);
+			name = "Quick RecipeTests";
+			productName = "Quick RecipeTests";
+			productReference = A67C45462C7BA8DB00940E4F /* Quick RecipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A67C454F2C7BA8DB00940E4F /* Quick RecipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67C45602C7BA8DB00940E4F /* Build configuration list for PBXNativeTarget "Quick RecipeUITests" */;
+			buildPhases = (
+				A67C454C2C7BA8DB00940E4F /* Sources */,
+				A67C454D2C7BA8DB00940E4F /* Frameworks */,
+				A67C454E2C7BA8DB00940E4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A67C45522C7BA8DB00940E4F /* PBXTargetDependency */,
+			);
+			name = "Quick RecipeUITests";
+			productName = "Quick RecipeUITests";
+			productReference = A67C45502C7BA8DB00940E4F /* Quick RecipeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A67C45282C7BA8DA00940E4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A67C452F2C7BA8DA00940E4F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A67C45452C7BA8DB00940E4F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A67C452F2C7BA8DA00940E4F;
+					};
+					A67C454F2C7BA8DB00940E4F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A67C452F2C7BA8DA00940E4F;
+					};
+				};
+			};
+			buildConfigurationList = A67C452B2C7BA8DA00940E4F /* Build configuration list for PBXProject "Quick Recipe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A67C45272C7BA8DA00940E4F;
+			productRefGroup = A67C45312C7BA8DA00940E4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A67C452F2C7BA8DA00940E4F /* Quick Recipe */,
+				A67C45452C7BA8DB00940E4F /* Quick RecipeTests */,
+				A67C454F2C7BA8DB00940E4F /* Quick RecipeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A67C452E2C7BA8DA00940E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C905942C825BC100317201 /* ov.png in Resources */,
+				A6A374F92C80E85E00161068 /* Gilroy-Extrabold.ttf in Resources */,
+				A6CDC6C22C832443000F7131 /* ovoc.png in Resources */,
+				A6A374F02C80E85E00161068 /* Gilroy-UltraLight.ttf in Resources */,
+				A6C9058C2C8241E800317201 /* egg.png in Resources */,
+				A6A375022C80E85E00161068 /* Gilroy-Black.ttf in Resources */,
+				A6A375052C80E85E00161068 /* Gilroy-Bold.ttf in Resources */,
+				A68D76F72C84E76A00E4ECFA /* irina.png in Resources */,
+				A6A374ED2C80E85E00161068 /* Gilroy-Heavy.ttf in Resources */,
+				A6C905902C825B5800317201 /* fruit.png in Resources */,
+				A6A374F62C80E85E00161068 /* Gilroy-Semibold.ttf in Resources */,
+				A67C453D2C7BA8DB00940E4F /* Assets.xcassets in Resources */,
+				A6CDC6C52C832443000F7131 /* black.png in Resources */,
+				A6CDC6C82C832443000F7131 /* girl.png in Resources */,
+				A6A374F32C80E85E00161068 /* Gilroy-Light.ttf in Resources */,
+				A6A374FC2C80E85E00161068 /* Gilroy-Thin.ttf in Resources */,
+				A6A374FF2C80E85E00161068 /* Gilroy-Medium.ttf in Resources */,
+				A6CDC6BC2C831281000F7131 /* top.png in Resources */,
+				A6A374EA2C80E85E00161068 /* Gilroy-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67C45442C7BA8DB00940E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C905952C825BC100317201 /* ov.png in Resources */,
+				A6A374FA2C80E85E00161068 /* Gilroy-Extrabold.ttf in Resources */,
+				A6A375002C80E85E00161068 /* Gilroy-Medium.ttf in Resources */,
+				A6C905912C825B5800317201 /* fruit.png in Resources */,
+				A6A374EE2C80E85E00161068 /* Gilroy-Heavy.ttf in Resources */,
+				A6A375032C80E85E00161068 /* Gilroy-Black.ttf in Resources */,
+				A6A374F72C80E85E00161068 /* Gilroy-Semibold.ttf in Resources */,
+				A6A374FD2C80E85E00161068 /* Gilroy-Thin.ttf in Resources */,
+				A6A374EB2C80E85E00161068 /* Gilroy-Regular.ttf in Resources */,
+				A6CDC6C62C832443000F7131 /* black.png in Resources */,
+				A6A375062C80E85E00161068 /* Gilroy-Bold.ttf in Resources */,
+				A6C9058D2C8241E800317201 /* egg.png in Resources */,
+				A6CDC6C32C832443000F7131 /* ovoc.png in Resources */,
+				A6CDC6BD2C831281000F7131 /* top.png in Resources */,
+				A6A374F12C80E85E00161068 /* Gilroy-UltraLight.ttf in Resources */,
+				A6CDC6C92C832443000F7131 /* girl.png in Resources */,
+				A6A374F42C80E85E00161068 /* Gilroy-Light.ttf in Resources */,
+				A68D76F82C84E76A00E4ECFA /* irina.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67C454E2C7BA8DB00940E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C905962C825BC100317201 /* ov.png in Resources */,
+				A6A374FB2C80E85E00161068 /* Gilroy-Extrabold.ttf in Resources */,
+				A6A375012C80E85E00161068 /* Gilroy-Medium.ttf in Resources */,
+				A6C905922C825B5800317201 /* fruit.png in Resources */,
+				A6A374EF2C80E85E00161068 /* Gilroy-Heavy.ttf in Resources */,
+				A6A375042C80E85E00161068 /* Gilroy-Black.ttf in Resources */,
+				A6A374F82C80E85E00161068 /* Gilroy-Semibold.ttf in Resources */,
+				A6A374FE2C80E85E00161068 /* Gilroy-Thin.ttf in Resources */,
+				A6A374EC2C80E85E00161068 /* Gilroy-Regular.ttf in Resources */,
+				A6CDC6C72C832443000F7131 /* black.png in Resources */,
+				A6A375072C80E85E00161068 /* Gilroy-Bold.ttf in Resources */,
+				A6C9058E2C8241E800317201 /* egg.png in Resources */,
+				A6CDC6C42C832443000F7131 /* ovoc.png in Resources */,
+				A6CDC6BE2C831281000F7131 /* top.png in Resources */,
+				A6A374F22C80E85E00161068 /* Gilroy-UltraLight.ttf in Resources */,
+				A6CDC6CA2C832443000F7131 /* girl.png in Resources */,
+				A6A374F52C80E85E00161068 /* Gilroy-Light.ttf in Resources */,
+				A68D76F92C84E76A00E4ECFA /* irina.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A67C452C2C7BA8DA00940E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68D76EF2C84D94300E4ECFA /* QRCreateViewController.swift in Sources */,
+				A6FDDC192C987C80004D3C61 /* QRTableViewController.swift in Sources */,
+				A67C45662C7BBC3D00940E4F /* QRAccountViewController.swift in Sources */,
+				A67C45642C7BBC2600940E4F /* QRLoveViewController.swift in Sources */,
+				A67C45382C7BA8DA00940E4F /* QRMainViewController.swift in Sources */,
+				A67C45342C7BA8DA00940E4F /* AppDelegate.swift in Sources */,
+				A67C45362C7BA8DA00940E4F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67C45422C7BA8DB00940E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67C454B2C7BA8DB00940E4F /* Quick_RecipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67C454C2C7BA8DB00940E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67C45572C7BA8DB00940E4F /* Quick_RecipeUITestsLaunchTests.swift in Sources */,
+				A67C45552C7BA8DB00940E4F /* Quick_RecipeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A67C45482C7BA8DB00940E4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A67C452F2C7BA8DA00940E4F /* Quick Recipe */;
+			targetProxy = A67C45472C7BA8DB00940E4F /* PBXContainerItemProxy */;
+		};
+		A67C45522C7BA8DB00940E4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A67C452F2C7BA8DA00940E4F /* Quick Recipe */;
+			targetProxy = A67C45512C7BA8DB00940E4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A67C45582C7BA8DB00940E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A67C45592C7BA8DB00940E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A67C455B2C7BA8DB00940E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DMMYNSFQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quick Recipe/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "push.Quick-Recipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A67C455C2C7BA8DB00940E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DMMYNSFQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Quick Recipe/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "push.Quick-Recipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A67C455E2C7BA8DB00940E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DMMYNSFQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "push.Quick-RecipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick Recipe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quick Recipe";
+			};
+			name = Debug;
+		};
+		A67C455F2C7BA8DB00940E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DMMYNSFQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "push.Quick-RecipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick Recipe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quick Recipe";
+			};
+			name = Release;
+		};
+		A67C45612C7BA8DB00940E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DMMYNSFQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "push.Quick-RecipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quick Recipe";
+			};
+			name = Debug;
+		};
+		A67C45622C7BA8DB00940E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DMMYNSFQ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "push.Quick-RecipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quick Recipe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A67C452B2C7BA8DA00940E4F /* Build configuration list for PBXProject "Quick Recipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67C45582C7BA8DB00940E4F /* Debug */,
+				A67C45592C7BA8DB00940E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67C455A2C7BA8DB00940E4F /* Build configuration list for PBXNativeTarget "Quick Recipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67C455B2C7BA8DB00940E4F /* Debug */,
+				A67C455C2C7BA8DB00940E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67C455D2C7BA8DB00940E4F /* Build configuration list for PBXNativeTarget "Quick RecipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67C455E2C7BA8DB00940E4F /* Debug */,
+				A67C455F2C7BA8DB00940E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67C45602C7BA8DB00940E4F /* Build configuration list for PBXNativeTarget "Quick RecipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67C45612C7BA8DB00940E4F /* Debug */,
+				A67C45622C7BA8DB00940E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A67C45282C7BA8DA00940E4F /* Project object */;
+}
