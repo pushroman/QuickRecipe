@@ -14,6 +14,7 @@ final class QRMainViewController: UIViewController {
 
     override func viewDidLoad() {
     
+        let test = "Test"
 
         
         super.viewDidLoad()
