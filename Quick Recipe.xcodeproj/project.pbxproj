@@ -14,9 +14,9 @@
 		A67C454B2C7BA8DB00940E4F /* Quick_RecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67C454A2C7BA8DB00940E4F /* Quick_RecipeTests.swift */; };
 		A67C45552C7BA8DB00940E4F /* Quick_RecipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67C45542C7BA8DB00940E4F /* Quick_RecipeUITests.swift */; };
 		A67C45572C7BA8DB00940E4F /* Quick_RecipeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67C45562C7BA8DB00940E4F /* Quick_RecipeUITestsLaunchTests.swift */; };
-		A67C45642C7BBC2600940E4F /* QRLoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67C45632C7BBC2600940E4F /* QRLoveViewController.swift */; };
+		A67C45642C7BBC2600940E4F /* QRCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67C45632C7BBC2600940E4F /* QRCreateViewController.swift */; };
 		A67C45662C7BBC3D00940E4F /* QRAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67C45652C7BBC3D00940E4F /* QRAccountViewController.swift */; };
-		A68D76EF2C84D94300E4ECFA /* QRCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68D76EE2C84D94300E4ECFA /* QRCreateViewController.swift */; };
+		A68D76EF2C84D94300E4ECFA /* QRCreateRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68D76EE2C84D94300E4ECFA /* QRCreateRecipeViewController.swift */; };
 		A68D76F72C84E76A00E4ECFA /* irina.png in Resources */ = {isa = PBXBuildFile; fileRef = A68D76F62C84E76A00E4ECFA /* irina.png */; };
 		A68D76F82C84E76A00E4ECFA /* irina.png in Resources */ = {isa = PBXBuildFile; fileRef = A68D76F62C84E76A00E4ECFA /* irina.png */; };
 		A68D76F92C84E76A00E4ECFA /* irina.png in Resources */ = {isa = PBXBuildFile; fileRef = A68D76F62C84E76A00E4ECFA /* irina.png */; };
@@ -50,6 +50,8 @@
 		A6A375052C80E85E00161068 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E92C80E85E00161068 /* Gilroy-Bold.ttf */; };
 		A6A375062C80E85E00161068 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E92C80E85E00161068 /* Gilroy-Bold.ttf */; };
 		A6A375072C80E85E00161068 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6A374E92C80E85E00161068 /* Gilroy-Bold.ttf */; };
+		A6C1D5612CE0BDA300240682 /* QRLoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C1D5602CE0BDA300240682 /* QRLoveViewController.swift */; };
+		A6C1D5632CE0C74700240682 /* QRSelectCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C1D5622CE0C74700240682 /* QRSelectCategoryViewController.swift */; };
 		A6C9058C2C8241E800317201 /* egg.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C9058B2C8241E800317201 /* egg.png */; };
 		A6C9058D2C8241E800317201 /* egg.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C9058B2C8241E800317201 /* egg.png */; };
 		A6C9058E2C8241E800317201 /* egg.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C9058B2C8241E800317201 /* egg.png */; };
@@ -71,6 +73,13 @@
 		A6CDC6C82C832443000F7131 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC6C12C832443000F7131 /* girl.png */; };
 		A6CDC6C92C832443000F7131 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC6C12C832443000F7131 /* girl.png */; };
 		A6CDC6CA2C832443000F7131 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC6C12C832443000F7131 /* girl.png */; };
+		A6D406322CDD1C5F006033E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A6D406312CDD1C5F006033E9 /* GoogleService-Info.plist */; };
+		A6D406352CDD1E22006033E9 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A6D406342CDD1E22006033E9 /* FirebaseAnalytics */; };
+		A6D406372CDD1E22006033E9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A6D406362CDD1E22006033E9 /* FirebaseAuth */; };
+		A6D406392CDD1E22006033E9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A6D406382CDD1E22006033E9 /* FirebaseFirestore */; };
+		A6D4063C2CDD286B006033E9 /* Cloudinary in Frameworks */ = {isa = PBXBuildFile; productRef = A6D4063B2CDD286B006033E9 /* Cloudinary */; };
+		A6DFC92B2CDA9731000F611D /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DFC92A2CDA9731000F611D /* ImageData.swift */; };
+		A6DFC92D2CDA9961000F611D /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DFC92C2CDA9961000F611D /* SupabaseService.swift */; };
 		A6FDDC192C987C80004D3C61 /* QRTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FDDC182C987C80004D3C61 /* QRTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -103,9 +112,9 @@
 		A67C45502C7BA8DB00940E4F /* Quick RecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick RecipeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67C45542C7BA8DB00940E4F /* Quick_RecipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_RecipeUITests.swift; sourceTree = "<group>"; };
 		A67C45562C7BA8DB00940E4F /* Quick_RecipeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_RecipeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A67C45632C7BBC2600940E4F /* QRLoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRLoveViewController.swift; sourceTree = "<group>"; };
+		A67C45632C7BBC2600940E4F /* QRCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCreateViewController.swift; sourceTree = "<group>"; };
 		A67C45652C7BBC3D00940E4F /* QRAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRAccountViewController.swift; sourceTree = "<group>"; };
-		A68D76EE2C84D94300E4ECFA /* QRCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCreateViewController.swift; sourceTree = "<group>"; };
+		A68D76EE2C84D94300E4ECFA /* QRCreateRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCreateRecipeViewController.swift; sourceTree = "<group>"; };
 		A68D76F62C84E76A00E4ECFA /* irina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = irina.png; sourceTree = "<group>"; };
 		A6A374E02C80E85E00161068 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Regular.ttf"; path = "../../../../../../../Downloands/Gilroy (1)/Gilroy-Regular.ttf"; sourceTree = "<group>"; };
 		A6A374E12C80E85E00161068 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Heavy.ttf"; path = "../../../../../../../Downloands/Gilroy (1)/Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
@@ -117,6 +126,8 @@
 		A6A374E72C80E85E00161068 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Medium.ttf"; path = "../../../../../../../Downloands/Gilroy (1)/Gilroy-Medium.ttf"; sourceTree = "<group>"; };
 		A6A374E82C80E85E00161068 /* Gilroy-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Black.ttf"; path = "../../../../../../../Downloands/Gilroy (1)/Gilroy-Black.ttf"; sourceTree = "<group>"; };
 		A6A374E92C80E85E00161068 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Bold.ttf"; path = "../../../../../../../Downloands/Gilroy (1)/Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		A6C1D5602CE0BDA300240682 /* QRLoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRLoveViewController.swift; sourceTree = "<group>"; };
+		A6C1D5622CE0C74700240682 /* QRSelectCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRSelectCategoryViewController.swift; sourceTree = "<group>"; };
 		A6C9058B2C8241E800317201 /* egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg.png; sourceTree = "<group>"; };
 		A6C9058F2C825B5800317201 /* fruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fruit.png; sourceTree = "<group>"; };
 		A6C905932C825BC100317201 /* ov.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ov.png; sourceTree = "<group>"; };
@@ -124,6 +135,9 @@
 		A6CDC6BF2C832442000F7131 /* ovoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ovoc.png; sourceTree = "<group>"; };
 		A6CDC6C02C832443000F7131 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
 		A6CDC6C12C832443000F7131 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+		A6D406312CDD1C5F006033E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloands/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A6DFC92A2CDA9731000F611D /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		A6DFC92C2CDA9961000F611D /* SupabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseService.swift; sourceTree = "<group>"; };
 		A6FDDC182C987C80004D3C61 /* QRTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +146,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6D4063C2CDD286B006033E9 /* Cloudinary in Frameworks */,
+				A6D406352CDD1E22006033E9 /* FirebaseAnalytics in Frameworks */,
+				A6D406372CDD1E22006033E9 /* FirebaseAuth in Frameworks */,
+				A6D406392CDD1E22006033E9 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				A6FDDC172C987663004D3C61 /* Core */,
-				A68D76EE2C84D94300E4ECFA /* QRCreateViewController.swift */,
+				A68D76EE2C84D94300E4ECFA /* QRCreateRecipeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -277,6 +295,9 @@
 		A6FDDC152C9872B7004D3C61 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				A6D406312CDD1C5F006033E9 /* GoogleService-Info.plist */,
+				A6DFC92A2CDA9731000F611D /* ImageData.swift */,
+				A6DFC92C2CDA9961000F611D /* SupabaseService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -296,9 +317,11 @@
 			isa = PBXGroup;
 			children = (
 				A67C45372C7BA8DA00940E4F /* QRMainViewController.swift */,
-				A67C45632C7BBC2600940E4F /* QRLoveViewController.swift */,
+				A67C45632C7BBC2600940E4F /* QRCreateViewController.swift */,
 				A67C45652C7BBC3D00940E4F /* QRAccountViewController.swift */,
 				A6FDDC182C987C80004D3C61 /* QRTableViewController.swift */,
+				A6C1D5602CE0BDA300240682 /* QRLoveViewController.swift */,
+				A6C1D5622CE0C74700240682 /* QRSelectCategoryViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -319,6 +342,12 @@
 			dependencies = (
 			);
 			name = "Quick Recipe";
+			packageProductDependencies = (
+				A6D406342CDD1E22006033E9 /* FirebaseAnalytics */,
+				A6D406362CDD1E22006033E9 /* FirebaseAuth */,
+				A6D406382CDD1E22006033E9 /* FirebaseFirestore */,
+				A6D4063B2CDD286B006033E9 /* Cloudinary */,
+			);
 			productName = "Quick Recipe";
 			productReference = A67C45302C7BA8DA00940E4F /* Quick Recipe.app */;
 			productType = "com.apple.product-type.application";
@@ -391,6 +420,11 @@
 				Base,
 			);
 			mainGroup = A67C45272C7BA8DA00940E4F;
+			packageReferences = (
+				A657E1D22CD8BE3000C66E27 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				A6D406332CDD1E22006033E9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A6D4063A2CDD286B006033E9 /* XCRemoteSwiftPackageReference "cloudinary_ios" */,
+			);
 			productRefGroup = A67C45312C7BA8DA00940E4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -424,6 +458,7 @@
 				A6A374F32C80E85E00161068 /* Gilroy-Light.ttf in Resources */,
 				A6A374FC2C80E85E00161068 /* Gilroy-Thin.ttf in Resources */,
 				A6A374FF2C80E85E00161068 /* Gilroy-Medium.ttf in Resources */,
+				A6D406322CDD1C5F006033E9 /* GoogleService-Info.plist in Resources */,
 				A6CDC6BC2C831281000F7131 /* top.png in Resources */,
 				A6A374EA2C80E85E00161068 /* Gilroy-Regular.ttf in Resources */,
 			);
@@ -486,13 +521,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A68D76EF2C84D94300E4ECFA /* QRCreateViewController.swift in Sources */,
+				A6C1D5632CE0C74700240682 /* QRSelectCategoryViewController.swift in Sources */,
+				A68D76EF2C84D94300E4ECFA /* QRCreateRecipeViewController.swift in Sources */,
 				A6FDDC192C987C80004D3C61 /* QRTableViewController.swift in Sources */,
 				A67C45662C7BBC3D00940E4F /* QRAccountViewController.swift in Sources */,
-				A67C45642C7BBC2600940E4F /* QRLoveViewController.swift in Sources */,
+				A67C45642C7BBC2600940E4F /* QRCreateViewController.swift in Sources */,
 				A67C45382C7BA8DA00940E4F /* QRMainViewController.swift in Sources */,
+				A6C1D5612CE0BDA300240682 /* QRLoveViewController.swift in Sources */,
 				A67C45342C7BA8DA00940E4F /* AppDelegate.swift in Sources */,
 				A67C45362C7BA8DA00940E4F /* SceneDelegate.swift in Sources */,
+				A6DFC92D2CDA9961000F611D /* SupabaseService.swift in Sources */,
+				A6DFC92B2CDA9731000F611D /* ImageData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -820,6 +859,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A657E1D22CD8BE3000C66E27 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		A6D406332CDD1E22006033E9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.4.0;
+			};
+		};
+		A6D4063A2CDD286B006033E9 /* XCRemoteSwiftPackageReference "cloudinary_ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cloudinary/cloudinary_ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A6D406342CDD1E22006033E9 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6D406332CDD1E22006033E9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A6D406362CDD1E22006033E9 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6D406332CDD1E22006033E9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A6D406382CDD1E22006033E9 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6D406332CDD1E22006033E9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A6D4063B2CDD286B006033E9 /* Cloudinary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6D4063A2CDD286B006033E9 /* XCRemoteSwiftPackageReference "cloudinary_ios" */;
+			productName = Cloudinary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A67C45282C7BA8DA00940E4F /* Project object */;
 }

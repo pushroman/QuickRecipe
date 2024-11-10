@@ -7,23 +7,18 @@
 
 import UIKit
 
+
 final class QRMainViewController: UIViewController {
     
     
     var mylabel = UILabel()
 
     override func viewDidLoad() {
-    
-        let test = "Test"
-
-        
         super.viewDidLoad()
-        
         view.backgroundColor = .white // фон белый
-        
         title = "Рецепты" // заголовок страницы
-        
-        //self.title = "Quick Recipe"
+        search()
+        heart()
         
         var tabBarItem = UITabBarItem()
         //tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 2)
@@ -31,7 +26,7 @@ final class QRMainViewController: UIViewController {
         view.backgroundColor = UIColor.white
         
         let scrollView = UIScrollView()
-        scrollView.frame = CGRect(x: 0, y: 150, width: self.view.frame.width, height: 220)
+        scrollView.frame = CGRect(x: 0, y: 200, width: self.view.frame.width, height: 220)
         scrollView.showsHorizontalScrollIndicator = false
         scrollView.isPagingEnabled = false
         scrollView.contentSize = CGSize(width: 700, height: 220) // Ширина зависит от количества изображений и их ширины
@@ -46,7 +41,7 @@ final class QRMainViewController: UIViewController {
         
         
         //подборки
-        _ = mainlabel(text: "Подборки", frame: CGRect(x: 20, y: 100, width: 200, height: 50))
+        _ = mainlabel(text: "Подборки", frame: CGRect(x: 20, y: 150, width: 200, height: 50))
         _ = imageCard(imageName: UIImage(named: "top")!,
                       frame: CGRect(x: 20, y: 0, width: 160, height: 220),
                       text: "Диета и пищевая безопасность",
@@ -79,6 +74,33 @@ final class QRMainViewController: UIViewController {
         let cardView3 = mainCard(frame: CGRect(x: 365, y: 0, width: 110, height: 160), color: #colorLiteral(red: 0.8827676177, green: 0.502869308, blue: 0.0469924286, alpha: 1), imageName: UIImage(named: "egg")!, text: "Перекус", sccrollView: scrollView1)
 
         
+    }
+    
+    
+    // Создание поиска
+    func search() -> UITextField {
+        let textField = UITextField() // создаем новый UILabel каждый раз
+        textField.frame = CGRect(x: self.view.center.x - 175, y: 100, width: 350, height: 30)
+        textField.borderStyle = .roundedRect
+        textField.contentHorizontalAlignment = .left   // Горизонтальное выравнивание по левому краю
+        textField.contentVerticalAlignment = .center   // Вертикальное выравнивание по центру
+        textField.placeholder = "Поиск"
+        //textField.center = self.view.center
+        textField.font = UIFont(name: "Gilroy-Semibold", size: 18)
+        textField.textColor = #colorLiteral(red: 0.2588235736, green: 0.2588235736, blue: 0.2588235736, alpha: 1)
+        view.addSubview(textField)
+        return textField
+        }
+    
+    func heart() {
+        let heartButton = UIButton(type: .system)
+        heartButton.setImage(UIImage(systemName: "heart.fill"), for: .normal) // Устанавливаем изображение сердца для кнопки
+        heartButton.tintColor = #colorLiteral(red: 1, green: 0.6300272346, blue: 0.6653666496, alpha: 1)
+        heartButton.frame = CGRect(x: self.view.bounds.width - 50, y: 160, width: 40, height: 40) // Задаем размер и позицию кнопки в правом верхнем углу
+        heartButton.addTarget(self, action: #selector(heartButtonTapped), for: .touchUpInside) // Добавляем действие для кнопки
+        let barButtonItem = UIBarButtonItem(customView: heartButton)
+        self.navigationItem.rightBarButtonItem = barButtonItem
+        view.addSubview(heartButton)
     }
     
     // Создание основного текста
@@ -153,12 +175,17 @@ final class QRMainViewController: UIViewController {
         navigationController?.pushViewController(createController, animated: true)
     }
     
+    // Метод, который вызывается при нажатии на кнопку
+    @objc func heartButtonTapped() {
+        let createController = QRLoveViewController()
+        navigationController?.pushViewController(createController, animated: true)
+}
+    
 
+}
     
     
     
-    
-    }
 
 
 

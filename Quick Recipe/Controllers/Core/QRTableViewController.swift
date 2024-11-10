@@ -19,25 +19,27 @@ class QRTableViewController: UITabBarController {
     
     private func setUpTubs() {
         let mainVC = QRMainViewController()
-        let loveVC = QRLoveViewController()
+        let createVC = QRCreateViewController()
         let accountVC = QRAccountViewController()
         
         mainVC.navigationItem.largeTitleDisplayMode = .automatic
-        loveVC.navigationItem.largeTitleDisplayMode = .automatic
+        createVC.navigationItem.largeTitleDisplayMode = .automatic
         accountVC.navigationItem.largeTitleDisplayMode = .automatic
         
 
         // Навигация
         let navMain = UINavigationController(rootViewController: mainVC)
-        let navLove = UINavigationController(rootViewController: loveVC)
+        let navCreate = UINavigationController(rootViewController: createVC)
         let navAccount = UINavigationController(rootViewController: accountVC)
         
         navMain.tabBarItem = UITabBarItem(title: "Рецепты", image: UIImage(systemName: "fork.knife"), tag: 1)
-        navLove.tabBarItem = UITabBarItem(title: "Избраное", image: UIImage(systemName: "heart.fill"), tag: 2)
+        navCreate.tabBarItem = UITabBarItem(title: "Создать", image: UIImage(systemName: "plus.circle"), tag: 2)
         navAccount.tabBarItem = UITabBarItem(title: "Аккаунт", image: UIImage(systemName: "person.fill"), tag: 3)
+
         
         
-        let set = [navMain, navLove, navAccount]
+        
+        let set = [navMain, navCreate, navAccount]
         
         for i in set {
             i.navigationBar.titleTextAttributes = [.font: UIFont(name: "Gilroy-Black", size: 24)]
