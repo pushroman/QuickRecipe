@@ -1,0 +1,17 @@
+{
+  "message": "Привет! Это API, которое отдаёт массив изображений с описаниями.",
+  "images": [
+    {
+      "url": "https://example.com/image1.jpg",
+      "description": "Описание для первого изображения"
+    },
+    {
+      "url": "https://example.com/image2.jpg",
+      "description": "Описание для второго изображения"
+    },
+    {
+      "url": "https://example.com/image3.jpg",
+      "description": "Описание для третьего изображения"
+    }
+  ]
+}
